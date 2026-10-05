@@ -1,0 +1,5 @@
+services:
+  information-recipe:
+    build: .
+    ports:
+      - "8103:80"
